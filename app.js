@@ -4,13 +4,5 @@ document.getElementById('ping').addEventListener("click", function(){
 })
 
 
-// Helper file
-//Runs in the background , seperate from the mian page
-//Offline permance, overall perfomance, push notifications
 
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js')
-    .then(()=> console.log('Service Worker registered'))
-    .catch(err => console.log('SW registration failed', err));
-
-}
+// New comment
